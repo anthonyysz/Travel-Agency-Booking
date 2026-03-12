@@ -5,6 +5,8 @@
 ## 2. My work
 &nbsp;&nbsp;&nbsp;&nbsp;I needed to create 4 new packages for controllers, entities, data access objects (dao), and services. The only controller I made was a checkout controller. All entities were created with columns to match the MySQL database provided. I made a dao for each of the entities except for [StatusType.java](https://github.com/anthonyysz/Travel-AgencyBooking/blob/main/backend/src/main/java/com/example/demo/entities/StatusType.java), an enumerative class used to provide the status of the cart during checkout. I finally made checkout service that would checkout and purchase the items added to the cart. 
 
+&nbsp;&nbsp;&nbsp;&nbsp;The majority of the code I wrote for this project is in the [back-end](https://github.com/anthonyysz/Travel-Agency-Booking/tree/main/back-end/src/main/java/com/example/demo) folder. I needed to make some tweaks to the pom.xml file and the application.properties file as well, but my task was the back-end.
+
 ## 3. How to view locally
 1. Clone the repository and open it in Visual Studio Code
 2. In the command line, navigate to the front-end folder and run
